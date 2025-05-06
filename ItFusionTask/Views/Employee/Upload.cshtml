@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Upload Excel";
+}
+
+<h2>Upload Employees from Excel</h2>
+
+<form asp-action="Upload" asp-controller="Employee" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label for="file">Choose Excel File (.xlsx)</label>
+        <input type="file" name="file" id="fileInput" class="form-control" accept=".xlsx,.xls" required />
+
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Upload</button>
+</form>
+<script>
+    document.getElementById("uploadForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const fileInput = document.getElementById("fileInput");
+        const file = fileInput.files[0];
+
+        if (!file) {
+            alert("Please select a file.");
+            return;
+        }
+
+        // ✅ Check extension
+        const allowedExtensions = [".xlsx", ".xls"];
+        const fileName = file.name.toLowerCase();
+
+        const isExcel = allowedExtensions.some(ext => fileName.endsWith(ext));
+        if (!isExcel) {
+            alert("Please upload a valid Excel file (.xls or .xlsx).");
+            return;
+        }
+
+        // ✅ If valid, proceed with the API call
+        const formData = new FormData();
+        formData.append("file", file);
+
+        fetch("/Employee/Upload", {
+            method: "POST",
+            body: formData
+        }).then(response => {
+            if (response.ok) {
+                alert("File uploaded successfully.");
+            } else {
+                alert("Upload failed.");
+            }
+        });
+    });
+</script>

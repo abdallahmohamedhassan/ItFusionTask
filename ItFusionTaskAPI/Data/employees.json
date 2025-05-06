@@ -1,0 +1,194 @@
+[
+  {
+    "Id": 1,
+    "Name": "John Doe",
+    "JoinDate": "2021-06-15T00:00:00",
+    "Phone": "01276243023",
+    "Gender": "Male",
+    "Salary": 50000.0
+  },
+  {
+    "Id": 2,
+    "Name": "Jane Smith",
+    "JoinDate": "2020-05-22T00:00:00",
+    "Phone": "987-654-3210",
+    "Gender": "Female",
+    "Salary": 60000.0
+  },
+  {
+    "Id": 3,
+    "Name": "Alice Brown",
+    "JoinDate": "2019-04-10T00:00:00",
+    "Phone": "01276243023",
+    "Gender": "Female",
+    "Salary": 55000.0
+  },
+  {
+    "Id": 50,
+    "Name": "abdallah",
+    "JoinDate": "2025-05-06T00:00:00",
+    "Phone": "01276243023",
+    "Gender": "Male",
+    "Salary": 522520.23
+  },
+  {
+    "Id": 51,
+    "Name": "yehia",
+    "JoinDate": "2025-05-08T00:00:00",
+    "Phone": "01276243023",
+    "Gender": "Female",
+    "Salary": 5552.0
+  },
+  {
+    "Id": 52,
+    "Name": "xz",
+    "JoinDate": "2025-05-12T00:00:00",
+    "Phone": "01276243023",
+    "Gender": "Male",
+    "Salary": 52.0
+  },
+  {
+    "Id": 53,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-01T00:00:00",
+    "Phone": "1012345678",
+    "Gender": "Male",
+    "Salary": 5000.0
+  },
+  {
+    "Id": 54,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-01T00:00:00",
+    "Phone": "1012345678",
+    "Gender": "Male",
+    "Salary": 5000.0
+  },
+  {
+    "Id": 55,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-02T00:00:00",
+    "Phone": "1012345679",
+    "Gender": "Male",
+    "Salary": 5001.0
+  },
+  {
+    "Id": 56,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-03T00:00:00",
+    "Phone": "1012345680",
+    "Gender": "Male",
+    "Salary": 5002.0
+  },
+  {
+    "Id": 57,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-04T00:00:00",
+    "Phone": "1012345681",
+    "Gender": "Male",
+    "Salary": 5003.0
+  },
+  {
+    "Id": 58,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-05T00:00:00",
+    "Phone": "1012345682",
+    "Gender": "Male",
+    "Salary": 5004.0
+  },
+  {
+    "Id": 59,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-06T00:00:00",
+    "Phone": "1012345683",
+    "Gender": "Male",
+    "Salary": 5005.0
+  },
+  {
+    "Id": 60,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-07T00:00:00",
+    "Phone": "1012345684",
+    "Gender": "Male",
+    "Salary": 5006.0
+  },
+  {
+    "Id": 61,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-08T00:00:00",
+    "Phone": "1012345685",
+    "Gender": "Male",
+    "Salary": 5007.0
+  },
+  {
+    "Id": 62,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-09T00:00:00",
+    "Phone": "1012345686",
+    "Gender": "Male",
+    "Salary": 5008.0
+  },
+  {
+    "Id": 63,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-10T00:00:00",
+    "Phone": "1012345687",
+    "Gender": "Male",
+    "Salary": 5009.0
+  },
+  {
+    "Id": 64,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-11T00:00:00",
+    "Phone": "1012345688",
+    "Gender": "Male",
+    "Salary": 5010.0
+  },
+  {
+    "Id": 65,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-12T00:00:00",
+    "Phone": "1012345689",
+    "Gender": "Male",
+    "Salary": 5011.0
+  },
+  {
+    "Id": 66,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-13T00:00:00",
+    "Phone": "1012345690",
+    "Gender": "Male",
+    "Salary": 5012.0
+  },
+  {
+    "Id": 67,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-14T00:00:00",
+    "Phone": "1012345691",
+    "Gender": "Male",
+    "Salary": 5013.0
+  },
+  {
+    "Id": 68,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-15T00:00:00",
+    "Phone": "1012345692",
+    "Gender": "Male",
+    "Salary": 5014.0
+  },
+  {
+    "Id": 69,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-16T00:00:00",
+    "Phone": "1012345693",
+    "Gender": "Male",
+    "Salary": 5015.0
+  },
+  {
+    "Id": 70,
+    "Name": "John Doe",
+    "JoinDate": "2023-01-17T00:00:00",
+    "Phone": "1012345694",
+    "Gender": "Male",
+    "Salary": 5016.0
+  }
+]
